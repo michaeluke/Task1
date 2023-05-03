@@ -1,0 +1,126 @@
+body{
+    
+   margin-inline: 15%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    
+}
+h1{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.grid1{
+    display: grid;
+    grid-template-areas: "a b b b b b";
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    height: auto;
+    min-height: fit-content;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.grid2{
+    display: grid;
+    grid-template-areas: "a a b b b b";
+    background-color: white;
+    padding-right: 20px;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 35px;
+    min-height: max-content;
+    overflow-y: hidden;
+}
+.flex1{
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    height:20vh;
+    background-color: white;
+    min-height: max-content;
+    overflow-y: hidden;
+}
+.flex2{
+    padding: 20px;
+    align-items: center;
+    height:22vh;
+    background-color: white;
+    min-height: max-content;
+    overflow-y: hidden;
+}
+.grid1 img{
+    grid-area: a;
+    width: 100px;
+    height: auto;
+    align-self: stretch;
+    padding-right: 5px;
+   
+   
+}
+.rest_of_grid{
+    grid-area: b;
+}
+
+.date-flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    
+  
+}
+.button button{
+    
+    background-color: rgb(95, 216, 210);
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    line-height: 1.7;
+    font-size: 0.8rem;
+}
+.survey{
+    font-size: 0.8rem;
+    color:rgb(95, 216, 210);
+}
+.date{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+h1{
+    font-size: 1rem;
+}
+.facts{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.grid2 img{
+    grid-area: a;
+    width: 220px;
+    height: auto;
+    align-self: stretch;
+    padding-right: 15px;
+   
+}
+.rest_of_grid{
+    grid-area: b;
+   
+}
